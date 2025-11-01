@@ -70,7 +70,7 @@ html {
 
 ::selection {
   text-shadow: none;
-  color: #fff;
+  color: #0f0f0f;
   background: var(--primary);
 }
 
@@ -2003,7 +2003,7 @@ button.menu-toggle {
 }
 .primary-navigation .menu > .menu-item > a .menu-badge {
   position: absolute;
-  right: 30px;
+  right: 70px;
   top: 20%;
 }
 
@@ -2058,7 +2058,7 @@ ul.menu li.current-menu-item > a, ul.menu li.current-menu-ancestor > a, ul.menu 
   display: flex;
   align-items: center;
   position: relative;
-  font-size: 23px;
+  font-size: 23px !important;
   line-height: 1.7142857143;
   font-weight: bold;
   text-transform: uppercase;
@@ -7614,4 +7614,121 @@ html[dir=rtl] .mega-menu.mega-stretchwidth {
 
 /* ===== End RTL CSS ===== */
 
-/*# sourceMappingURL=style.css.map */
+/* ===== Dark Theme Styles ===== */
+body {
+  color: #ffffff !important;
+}
+
+a {
+  color: var(--primary);
+}
+
+a:hover {
+  color: var(--primary_hover);
+}
+
+.site-header,
+header,
+.elementor-location-header {
+  background-color: var(--background_light) !important;
+  border-bottom: 1px solid var(--border);
+}
+
+.site-footer,
+footer {
+  background-color: var(--background_light) !important;
+  border-top: 1px solid var(--border);
+}
+
+input,
+textarea,
+select {
+  background-color: var(--background_light) !important;
+  color: #ffffff !important;
+  border-color: var(--border) !important;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  border-color: var(--primary) !important;
+}
+
+.elementor-widget-heading .elementor-heading-title {
+  color: #ffffff !important;
+}
+
+.elementor-button {
+  background-color: transparent !important;
+  color: #ffffff !important;
+  border-color: var(--primary) !important;
+}
+
+.elementor-button:hover {
+  background-color: var(--primary) !important;
+  color: var(--background) !important;
+}
+
+.elementor-icon-box-title,
+.elementor-icon-box-description {
+  color: #ffffff !important;
+}
+
+.menu-item a {
+  color: #ffffff !important;
+}
+
+.menu-item a:hover {
+  color: var(--primary) !important;
+}
+
+.zipli-mobile-nav {
+  background-color: var(--background) !important;
+}
+
+.site-branding-text .site-title a,
+.site-branding-text .site-description {
+  color: #ffffff !important;
+}
+
+.elementor-widget-container {
+  color: #ffffff !important;
+}
+
+/* Card and box backgrounds */
+.e-con {
+  background-color: var(--background_light);
+}
+
+/* SVG icon colors for dark theme */
+svg path {
+  stroke: var(--primary);
+}
+
+/* Mobile menu dark theme */
+.zipli-mobile-nav .menu a {
+  color: #ffffff !important;
+}
+
+.zipli-mobile-nav .menu a:hover {
+  color: var(--primary) !important;
+}
+
+/* Hamburger icon for dark theme */
+.zipli-icon span {
+  background-color: #ffffff !important;
+}
+
+/* All text elements white */
+p, span, div, h1, h2, h3, h4, h5, h6, li, td, th, label {
+  color: #ffffff !important;
+}
+
+/* Specific homepage elements */
+.elementor-heading-title,
+.elementor-text-editor,
+.elementor-widget-text-editor,
+.elementor-icon-list-text {
+  color: #ffffff !important;
+}
+
